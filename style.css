@@ -71,7 +71,26 @@ header section:nth-child(2) .violet{
 
 section{
     height: 600px;
-    background-color: lightgrey;
+}
+
+
+
+main section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main section:nth-child(1){
+    background-color:white ;
+}
+main section:nth-child(3){
+    background-color:white ;
+}
+main section:nth-child(2){
+    background-color:rgba(211, 211, 211, 1) ;
+}
+main section:nth-child(4){
+    background-color:rgba(211, 211, 211, 1) ;
 }
 
 main section:nth-child(4){ /* targetizzo dove cè la scatola verde*/
