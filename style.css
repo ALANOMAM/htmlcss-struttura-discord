@@ -16,13 +16,17 @@ body{
     display: flex;
 }
 
-
+header section:first-child{
+height:80px;
+padding-top: 15px;
+background-color:rgba(173, 216, 230, 1) ;
+}
 nav{
     max-width: 1193px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    background-color: orange;
+    background-color: rgba(218, 165, 32, 1);
 }
 
 nav .logo{
@@ -43,12 +47,27 @@ list-style-type: none;
 gap: 10px;
 }
 
-
-
 nav .login{
 width:231px;    
 height: 50px;
 }
+
+header section:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 139, 1) ;
+}
+
+header section:nth-child(2) .violet{
+    width: 900px;
+    height: 400px;
+
+    background-color:rgba(238, 130, 238, 1);
+
+}
+
+
 
 section{
     height: 600px;
