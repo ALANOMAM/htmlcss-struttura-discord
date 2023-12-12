@@ -16,6 +16,40 @@ body{
     display: flex;
 }
 
+
+nav{
+    max-width: 1193px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: orange;
+}
+
+nav .logo{
+ width:231px; 
+height: 50px;
+}
+
+nav .links{
+ height: 50px;
+ flex-grow: 1;
+}
+
+ul{
+ display: flex; 
+ justify-content: center;  
+ align-items: center;
+list-style-type: none;
+gap: 10px;
+}
+
+
+
+nav .login{
+width:231px;    
+height: 50px;
+}
+
 section{
     height: 600px;
     background-color: lightgrey;
