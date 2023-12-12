@@ -5,9 +5,7 @@ margin:0;
 border: 2px solid black
 }
 
-body{
-    background-color: blanchedalmond;
-}
+
 
 .container{
     max-width: 1193px;
@@ -16,6 +14,7 @@ body{
     display: flex;
 }
 
+/* INIZIO HEADER*/
 header section:first-child{
 height:80px;
 padding-top: 15px;
@@ -66,15 +65,14 @@ header section:nth-child(2) .violet{
     background-color:rgba(238, 130, 238, 1);
 
 }
-
-
+/* FINE HEADER*/
 
 section{
     height: 600px;
 }
 
 
-
+/* INIZIO MAIN*/
 main section{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -119,3 +117,59 @@ main section:nth-child(4){ /* targetizzo dove cè la scatola verde*/
     background-color: rgba(34, 139, 34, 1);
 
 }
+/* FINE MAIN*/
+
+footer .footer-nav{
+    max-width: 1193px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(127, 255, 212, 1);
+
+}
+
+
+footer section:nth-child(1){
+    background-color: black;
+}
+
+footer .div1{
+    height: 560px;
+    width: 360px;
+background-color: rgba(240, 128, 128, 1);
+}
+
+footer .div2{
+ height: 560px;  
+ flex-grow: 1; 
+background-color:rgba(32, 178, 170, 1);
+}
+
+hr{
+    display: block;
+    border-width: 1px;
+    margin-top: 30px;
+    border-color: white;
+    
+}
+
+footer section:nth-child(2){
+    height: 110px;
+    padding-top: 30px;
+    background-color: black;
+}
+
+footer .logo{
+    width: 50px;
+    height: 30px;
+    background-color: rgba(255, 182, 193, 1);
+}
+
+footer button{
+    background-color: rgba(255, 182, 193, 1);
+}
+
+
