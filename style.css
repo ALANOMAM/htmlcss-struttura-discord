@@ -67,8 +67,9 @@ header section:nth-child(2){
 }
 
 header section:nth-child(2) .violet{
-    width: 900px;
-    height: 400px;
+    max-width: 900px;  /* metter max-width mi dice che posso arrivare fin li al massimo */
+     width: 100%; /* with mi dice di occupare 100% dello spazio disponibile e sarà quindi 900px. se non metto questo non si vede niente*/
+    height: 400px; 
 
     background-color:rgba(238, 130, 238, 1);
 }
@@ -85,18 +86,11 @@ main section{
     padding-bottom: 50px;
 }
 
-main section:nth-child(1){
+main section:nth-child(2n+1){
     background-color:white ;
 }
 
-main section:nth-child(3){
-    background-color:white ;
-}
-
-main section:nth-child(2){
-    background-color:rgba(211, 211, 211, 1) ;
-}
-main section:nth-child(4){
+main section:nth-child(2n+2){
     background-color:rgba(211, 211, 211, 1) ;
 }
 
